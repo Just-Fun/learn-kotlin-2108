@@ -1,13 +1,13 @@
 package com.serzh.coursera;
-
-import java.util.Random;
-
+/*
 import com.serzh.example.coursera.MyFileKt;
 import com.serzh.example.coursera.TempKtClassKt;
 
+import java.util.Random;*/
+
 public class TempJavaClass {
 
-    public static void main(String[] args) {
+   /* public static void main(String[] args) {
         int foo = MyFileKt.foo();
 
         TempKtClassKt.displaySeparator('g', 2);
@@ -19,6 +19,6 @@ public class TempJavaClass {
 
         Random rand = new Random();
         int value = rand.nextInt(50);
-    }
+    }*/
 
 }

@@ -1,11 +1,11 @@
 package com.serzh.my;
 
-import java.util.ArrayList;
-import java.util.Collection;
+//import java.util.ArrayList;
+//import java.util.Collection;
 
 public class CollectionJava {
 
-    public static void main(String[] args) {
+   /* public static void main(String[] args) {
 
         Collection<String> collection = new ArrayList<>();
         String s = CollectionsFunctions.joinToStringOld(collection, "", "", "");
@@ -34,5 +34,5 @@ public class CollectionJava {
         System.out.println(date);
         System.out.println(time);
 
-    }
+    }*/
 }

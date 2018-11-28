@@ -1,7 +1,13 @@
-package com.serzh.example.entity
+package com.serzh.entity
 
 import java.time.LocalDateTime
 import javax.persistence.*
+
+fun main(args: Array<String>) {
+	val user = User("1", "f", "l")
+	val component1 = user.component1()
+	println(component1) // 1
+}
 
 @Entity
 data class Article(
@@ -18,3 +24,4 @@ data class User(
 		val firstname: String,
 		val lastname: String,
 		val description: String? = null)
+
